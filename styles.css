@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECE5DD; /* Cor de fundo semelhante ao WhatsApp */
+}
+
+.chat-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* Cor de fundo branca para o container de chat */
+}
+
+.chat-box {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#voice-icon {
+    /* width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: #fff; */
+    margin-top: 10px;
+}
+
+#send-button {
+    /* width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: #fff; */
+    margin-top: 10px;
+}
+
+/* Estilos para as mensagens do usuário */
+.chat-box .user-message {
+    text-align: right;
+    color: #161515;
+    background-color: #DCF8C6;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Estilos para as mensagens do bot */
+.chat-box .bot-message {
+    text-align: left;
+    color: #fff;
+    background-color: #34B7F1;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.questions-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.questions-container h2 {
+    margin-bottom: 20px;
+}
+
+.questions-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.questions-container li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.questions-container li:hover {
+    background-color: #e2e6ea;
+}
+
+.chat-container {
+    margin-left: 250px;
+}
+
+.questions-container li:hover {
+    background-color: #e2e6ea;
+}

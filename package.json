@@ -1,0 +1,14 @@
+{
+  "name": "english-trainning",
+  "version": "1.0.0",
+  "description": "Website criado com o foco de estudo do inglês.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anselmo Santos",
+  "license": "ISC",
+  "dependencies": {
+    "franc-min": "^6.2.0"
+  }
+}
